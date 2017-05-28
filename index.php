@@ -26,7 +26,8 @@ $headers = array(
 $request->setHeader($headers);
 
 $parameters = array(
-    'visualFeatures' => 'Categories,tags,description',
+   // 'visualFeatures' => 'Categories,tags,description',
+    'visualFeatures' => 'Categories',
 
 );
 
@@ -45,11 +46,36 @@ try
 {
     $response = $request->send();
     echo "<pre>" . json_encode(json_decode($response->getBody()), JSON_PRETTY_PRINT) . "</pre>";
+
+    $data =  json_decode($response->getBody());
+
+    //print_r($data);
+
+        // Open the table
+         echo "<table>";
+         echo"<td>NOMBRE</td>";
+         echo"<td>PUNTUACION</td>";
+        // Cycle through the array
+        foreach ($data->categories as $idx => $categories) {
+
+            // Output a row
+            echo "<tr>";
+            echo "<td>$categories->name</td>";
+            echo "<td>$categories->score</td>";
+            echo "</tr>";
+        }
+
+        // Close the table
+        echo "</table>";
+
 }
 catch (HttpException $ex)
 {
     echo "<pre>" . $ex . "</pre>";
 }
+
+
+
 ?>
 </body>
 </html>
