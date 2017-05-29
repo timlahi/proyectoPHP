@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>PHP Sample</title>
+    <title>ProyectoPHP Tarik&Moha</title>
 </head>
 <body bgcolor="#E6E6FA">
 &nbsp;
