@@ -1,6 +1,6 @@
 <html>
 <head>
-    <title>ProyectoPHP Tarik&Moha</title>
+    <title>ProyectoPHP Tarik&Mohas</title>
 </head>
 <body bgcolor="#E6E6FA">
 &nbsp;
