@@ -1,7 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <module type="WEB_MODULE" version="4">
   <component name="NewModuleRootManager">
-    <content url="file://$MODULE_DIR$" />
+    <content url="file://$MODULE_DIR$">
+      <excludeFolder url="file://$MODULE_DIR$/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/pear/archive_tar" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/pear/console_getopt" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/pear/http_request2" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/pear/net_url2" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/pear/pear" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/pear/pear-core-minimal" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/pear/pear_exception" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/pear/structures_graph" />
+      <excludeFolder url="file://$MODULE_DIR$/vendor/pear/xml_util" />
+    </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
@@ -15,6 +26,34 @@
           <root url="phar://$MODULE_DIR$/phpunit.phar/" />
           <root url="phar://$MODULE_DIR$/composer.phar/" />
           <root url="phar://$MODULE_DIR$/go-pear.phar/" />
+        </SOURCES>
+      </library>
+    </orderEntry>
+    <orderEntry type="module-library">
+      <library name="PHP" type="php">
+        <CLASSES>
+          <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/pear/archive_tar" />
+          <root url="file://$MODULE_DIR$/vendor/pear/console_getopt" />
+          <root url="file://$MODULE_DIR$/vendor/pear/http_request2" />
+          <root url="file://$MODULE_DIR$/vendor/pear/net_url2" />
+          <root url="file://$MODULE_DIR$/vendor/pear/pear" />
+          <root url="file://$MODULE_DIR$/vendor/pear/pear-core-minimal" />
+          <root url="file://$MODULE_DIR$/vendor/pear/pear_exception" />
+          <root url="file://$MODULE_DIR$/vendor/pear/structures_graph" />
+          <root url="file://$MODULE_DIR$/vendor/pear/xml_util" />
+        </CLASSES>
+        <SOURCES>
+          <root url="file://$MODULE_DIR$/vendor/composer" />
+          <root url="file://$MODULE_DIR$/vendor/pear/archive_tar" />
+          <root url="file://$MODULE_DIR$/vendor/pear/console_getopt" />
+          <root url="file://$MODULE_DIR$/vendor/pear/http_request2" />
+          <root url="file://$MODULE_DIR$/vendor/pear/net_url2" />
+          <root url="file://$MODULE_DIR$/vendor/pear/pear" />
+          <root url="file://$MODULE_DIR$/vendor/pear/pear-core-minimal" />
+          <root url="file://$MODULE_DIR$/vendor/pear/pear_exception" />
+          <root url="file://$MODULE_DIR$/vendor/pear/structures_graph" />
+          <root url="file://$MODULE_DIR$/vendor/pear/xml_util" />
         </SOURCES>
       </library>
     </orderEntry>

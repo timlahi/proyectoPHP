@@ -12,12 +12,12 @@
   "repositories": [
     {
       "type": "pear",
-      "url": "http://pear.php.net"
+      "url": "https://packagist.org/packages/pear"
     }
   ],
   "require": {
-    "php": ">=5.3.2",
-    "pear-pear.php.net/pear": "1.10.4",
-    "pear-pear.php.net/HTTP_Request2": "2.3.0"
+    "pear/pear": "1.10.4",
+    "pear/net_url2" :" 2.2.1",
+    "pear/http_request2": "2.3.0"
   }
 }
