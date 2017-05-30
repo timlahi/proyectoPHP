@@ -6,8 +6,8 @@
 
 <?php
 // This sample uses PEAR (https://pear.php.net/package/HTTP_Request2/download)
-//require_once 'HTTP/Request2.php';
-require_once '/vendor/autoload.php';
+require_once 'HTTP/Request2.php';
+//require_once '/vendor/autoload.php';
 // NOTE: You must use the same location in your REST call as you used to obtain your subscription keys.
 //   For example, if you obtained your subscription keys from westus, replace "westcentralus" in the
 //   URL below with "westus".
