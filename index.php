@@ -12,7 +12,7 @@
 &nbsp;
 <center>
 <form method="get" action="funcion.php" style="top: 1500px">
-    <font size="14"><b>Imagen URL (push2) </b>: <input type="text" name="varname" id="varname" value="varname" size="50" ><br/>
+    <font size="14"><b>Imagen URL (push) </b>: <input type="text" name="varname" id="varname" value="varname" size="50" ><br/>
 
     <input type="submit">
 </form>
