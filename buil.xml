@@ -1,0 +1,7 @@
+
+
+
+<target name="restartapache" description="Restarts the web server">
+    <exec command="sudo -i"/>
+    <exec command="sudo service apache2 restart" />
+</target>
