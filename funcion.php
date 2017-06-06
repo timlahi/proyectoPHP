@@ -24,7 +24,7 @@ $headers = array(
 $request->setHeader($headers);
 $parameters = array(
     // 'visualFeatures' => 'Categories,tags,description',
-    'visualFeatures' => 'Categories',
+    'visualFeatures' => 'Categories,tags',
 );
 $value=$_GET['varname'];
 $url->setQueryVariables($parameters);
